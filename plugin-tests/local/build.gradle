@@ -1,0 +1,10 @@
+buildscript {
+  repositories {
+	jcenter()
+  }
+  dependencies {
+    classpath 'com.blogspot.jvalentino.gradle:env-demo:1.0.0'
+  }
+}
+
+apply plugin: 'env-demo'
